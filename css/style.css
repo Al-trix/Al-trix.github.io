@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+/*-----------------Colors------------------------*/
+:root {
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+
+    --font: 'Poppins', sans-serif;
+    ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    font-size: 12px;
+    background-color: var(--Off-white);
+    font-family: var(--font);
+}
+
+.card {
+    background: var(--White);
+    padding: 2em 2em;
+    border-radius: .7em .7em 5em .7em;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    overflow: hidden;
+    width: 30em;
+}
+
+.nav__form{
+    display: flex;
+    border-bottom: 1px solid var(--Light-grey); 
+    padding-bottom: 1.7em;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.nav__fech{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: .5em;
+    position: relative;
+    padding-bottom: 1.4em;
+    padding-right: 1.8em;
+}
+
+label{
+    font-size: .65em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--Smokey-grey);
+}
+
+.nav__input{
+    width: 5.5em;
+    height: auto;
+    padding: .46em .9em;
+    font-size: 1.1em;
+    font-weight: 700;
+    appearance:textfield;
+    color: var(--Smokey-grey);
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--Light-grey);
+}
+
+.nav__input:not(:placeholder-shown){
+    color: var(--Off-black);
+}
+
+.nav__input.error{
+    border-color: var(--Light-red);
+}
+.nav__input.error + label{
+    color: var(--Light-red);
+}
+
+.nav__mesage{
+    
+    font-size: .58em;
+    color: var(--Light-red);
+    position: absolute;
+    bottom: 0;
+
+}
+
+.nav__submit{
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    padding: .7em;
+    border-radius: 50%;
+    border:1px solid var(--Purple);
+    background-color: var(--Purple);
+    cursor: pointer;
+}
+
+.nav__submit img{
+    width: 2em;
+}
+
+.nav__submit:hover {
+   background-color: var(--Off-black);
+   border-color: var(--Off-black);
+}
+
+
+/*Fachas*/
+
+.result{
+    margin-top: 1.3em;
+}
+
+.result__date{
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: .1em;
+}
+
+.result__number{
+    color: var(--Purple);
+    margin-right: .2em;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+      font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .nav__submit{
+        bottom: -20px;
+        right: 45%;
+        left: 45%;
+    }
+}

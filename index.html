@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <section class="card">
+      <nav class="nav">
+        <form action="" id="form" class="nav__form">
+          <div class="nav__fech">
+            <input
+              type="text"
+              name="inputDay"
+              id="inputDay"
+              class="nav__input"
+              required
+              placeholder="DD"
+              maxlength="2"
+              minlength="2"
+              
+            />
+            <label for="inputDay">Day</label>
+            <span class="nav__mesage"></span>
+          </div>
+          <div class="nav__fech">
+            <input
+              type="text"
+              name="inputMonth"
+              id="inputMonth"
+              class="nav__input"
+              required
+              placeholder="MM"
+              maxlength="2"
+              minlength="2"
+            />
+            <label for="inputMonth">Month</label>
+            <span class="nav__mesage"></span>
+          </div>
+          <div class="nav__fech">
+            <input
+              type="text"
+              name="inputYear"
+              id="inputYear"
+              class="nav__input"
+              required
+              placeholder="YYYY"
+              maxlength="4"
+              minlength="4"
+            />
+            <label for="inputYear">Year</label>
+            <span class="nav__mesage"></span>
+          </div>
+          <button type="submit" class="nav__submit">
+            <img src="./assets/images/icon-arrow.svg" alt="arrow" id="submit" />
+          </button>
+        </form>
+      </nav>
+      <div class="result">
+        <div class="result__date">
+          <span class="result__number" id="year">- -</span>Years
+        </div>
+        <div class="result__date">
+          <span class="result__number" id="month">- -</span>Months
+        </div>
+        <div class="result__date">
+          <span class="result__number" id="day">- -</span>Days
+        </div>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
