@@ -7,7 +7,7 @@
     "nombre_del_vd": "Ben 10: A por los omitrix",
     "objetivo": "Atrapar todos los omitrix verdes posibles, si agarras los rojos te restaran puntos, el juego no tiene fin, puedes sumar los puntos que quieras, por el momento el juego puede mejorar y agregar otros niveles con mas aliens",
     "historia": "Ben 10 perdio sus aliens de su omitrix, atrapar los omitrix ayudará a conseguir sus aliens",
-    "img" : "../../public/ben10.png"
+    "img" : "/ben10.png"
   },
 
   {
@@ -17,7 +17,7 @@
     "nombre_del_vd": "Nook el oso polar",
     "objetivo": "Salir de los laberintos",
     "historia": "Nook perdió a su madre y tiene que salir de los laberintos para encontrarla",
-    "img" : "../../public/nook.png"
+    "img" : "/nook.png"
   },
   {
     "nombre_1": "Lisdey Lorena Espinosa",
@@ -27,7 +27,7 @@
     "nombre_del_vd": "Basketball ball game",
     "objetivo": "No dejar que la pelota toque la linea roja",
     "historia": "Se trata de una pelota que rebota para ensestarse y si toca la linea roja pierde, pero cada 5 puntos sube la velocidad",
-    "img" : "../../public/baske.png"
+    "img" : "/baske.png"
   },
   {
     "nombre_1": "Paula Andrea Palacios Garcia",
@@ -37,7 +37,7 @@
     "nombre_del_vd": "Slade",
     "objetivo": "OBJETIVO: hacer que el personaje llegue hasta su comida",
     "historia": "HISTORIA: el jugador deberá hacer que el personaje pase por los diferentes obstáculos con el fin de llegar al punto donde se encuentra su comida, y habrán diferentes escenarios y personajes",
-    "img" : "../../public/slade.png"
+    "img" : "/slade.png"
   },
   {
     "nombre_1": "Yulieth Hernandez",
@@ -46,7 +46,7 @@
     "nombre_del_vd": "Sobrevive",
     "objetivo": "Escapar de los Zombies y comerse toda la comida",
     "historia": "Las especies pokemon estan en peligro,un fuerte virus los persigue.Hay 2 opciones o escapas o mueres",
-    "img" : "../../public/sobrevive.png"
+    "img" : "/sobrevive.png"
   },
   {
     "nombre_1": "Antony Jaramillo Bernal",
@@ -55,7 +55,7 @@
     "nombre_del_vd": "The imposible game",
     "objetivo": "El objetivo de mi videojuego es lograr pasar los 8 niveles sin morir ni una sola vez",
     "historia": "Mi videojuego no cuenta una historia como tal es un juego lineal",
-    "img" : "../../public/the_imposible.png"
+    "img" : "/the_imposible.png"
   },
   {
     "nombre_1": "Estefania Muñoz Pareja",
@@ -65,7 +65,7 @@
     "nombre_del_vd": "Chica Dinamita",
     "objetivo": "El objetivo del juego es expresar que a las mujeres la sociedad se encarga de asignarles un cargo estándar a su género. Por medio de este juego, queremos dar a entender que las mujeres no necesariamente tienen que cumplir con estos roles estipulados.",
     "historia": "Una chica a la cual siempre le ha gustado evadir los cargos que por el género dado al nacer, la sociedad se ha encargado de recalcar. Cosas típicas que para algunas mujeres les puede gustar, a otras, no. Y este es el caso.Entonces, por eso, ella le corre a el compromiso, a la familia, a todas esas labores que deben o les gustan a las mujeres o Más bien, que la sociedad se ha encargado de resaltar. ",
-    "img" : "../../public/chica_dinamita.png"
+    "img" : "/chica_dinamita.png"
   },
   {
     "nombre_1": "Sharon Eilyn Restrepo Jaramillo",
@@ -75,7 +75,7 @@
     "nombre_del_vd": "Proyecto final_Carreras",
     "objetivo": "Hacer la mayor cantidad de puntos hasta salir victorioso",
     "historia": "La historia comienza cuando un siniestro culto descubre una forma de corromper los cristales mágicos, sumiendo al reino en la decadencia y el caos. Tu personaje, un humilde habitante del reino, descubre que es el único capaz de resistir los efectos corruptores de los cristales y se embarca en una búsqueda épica para desentrañar el misterio detrás de este oscuro culto y devolver la pureza a los cristales mágicos.A lo largo del juego, te aventuras en un mundo expansivo lleno de peligros y maravillas. Te enfrentas a monstruos pixelados, resuelves intrincados acertijos y navegas a través de bosques encantados, mazmorras laberínticas y ciudades pixeladas vibrantes. A medida que avanzas, descubres aliados inesperados, cada uno con habilidades únicas que te ayudan en tu misión.La historia se desarrolla con giros sorprendentes y una narrativa rica que explora los vínculos entre la luz y la oscuridad, el destino y la elección, y el poder de la esperanza en un mundo pixelado. Cada cristal que restauras te otorga nuevos poderes y habilidades que te ayudan a enfrentar desafíos más formidables.Tu objetivo final es derrotar al líder del culto y restaurar la paz y la magia en el reino pixelado. A medida que avanzas, tomas decisiones que afectan el curso de la historia y el destino de los personajes que conoces en tu viaje.",
-    "img" : "../../public/proyecto_final_carreras.png"
+    "img" : "/proyecto_final_carreras.png"
   },
   {
     "nombre_1": "Mateo Atehortúa Rodríguez",
@@ -84,7 +84,7 @@
     "nombre_del_vd": "Velocity Racer",
     "objetivo": "OBJETIVO: Ganar el Campeonato de Carreras, y, para lograrlo, el jugador deberá mejorar sus habilidades de manejo, personalizar su vehículo y tomar decisiones estratégicas en la pista.",
     "historia": "HISTORIA: El juego comienza con el jugador asumiendo el papel de un conductor talentoso llamado Alex Rodríguez, quien es el nuevo competidor de la primera división del Campeonato de Carreras, una competición legendaria que solo losmejores pilotos del mundo pueden ingresar. Para hacerlo, deben demostrar su valía en una serie de competencias regionales y ganar el reconocimiento necesario para competir en la primera categoría. A medida que el campeonato avanza Alex demuestra que es la nueva estrella del automovilismo de su época, ganando los primeros premios de la temporada, con un estilo de manejo limpio y casi perfecto, digno de un competidor de tal nivel.",
-    "img" : "../../public/velocity_racer.png"
+    "img" : "/velocity_racer.png"
   },
   {
     "nombre_1": "Evelyn Giraldo Montoya",
@@ -94,7 +94,7 @@
     "nombre_del_vd": "El laberinto Mágico",
     "objetivo": "Pasar un laberinto y así llegar al tesoro (Convertirse en humana)",
     "historia": "En El Laberinto Mágico, una ranita busca un tesoro en un laberinto desafiante. Enfrenta jefes, descubre la historia del laberinto y encuentra el tesoro que le permitiría convertirse en humana. Tras reflexionar, decide tomar el tesoro para su beneficio.",
-    "img" : "../../public/el_laberinto_magico.png"
+    "img" : "/el_laberinto_magico.png"
   },
   {
     "nombre_1": "Danny Zulay Cordoba Mena",
@@ -104,7 +104,7 @@
     "nombre_del_vd": "Cat word",
     "objetivo": "Derrotar a los 4 enemigos",
     "historia": "Mi videojuego empezara en el fondo del mar donde cat nuestro personaje debera empezar luchando contra un barco hundido con el pasar de luchar contra el barco viajaras por 3 lugares mas y lucharas contra 3 enemigos mas que debes intentar vencer",
-    "img" : "../../public/cat_word.png"
+    "img" : "/cat_word.png"
   },
   {
     "nombre_1": "Anibal Cabrales Hernandez",
@@ -114,7 +114,7 @@
     "nombre_del_vd": "La Aventura De Horse",
     "objetivo": "Ganar la competencia del rey terrestre",
     "historia": "Horse nos cuenta el día que cambió su vida al ir a una competencia",
-    "img" : "../../public/la_aventura_de_horse.png"
+    "img" : "/la_aventura_de_horse.png"
   },
   {
     "nombre_1": "yireth nicole molina cadavid",
@@ -124,7 +124,7 @@
     "nombre_del_vd": "The race run gumball",
     "objetivo": "Completar todos los niveles evitando obstáculos para llegar a la casa de gumball",
     "historia": "Gumball estaba en la tienda comprando pan, en eso se acuerda que dejo el gas abierto y tiene que correr a cerrarlo, para eso gumball tiene que pasar diferentes adversidades como correr de un perro en la calle, evitando asi la gente del mall y saltando de un puente enconstruccion, para asi poder finalmente llegar a su casa donde se dara cuenta que el gas estaba cerrado.",
-    "img" : "../../public/the_race_run_gumball.png"
+    "img" : "/the_race_run_gumball.png"
   },
   {
     "nombre_1": "Melissa Santamaría Vélez",
@@ -134,7 +134,7 @@
     "nombre_del_vd": "La princesa en busca de su corona",
     "objetivo": "Que la princesa rescate su corona",
     "historia": "A la princesa cubo le roban su corona, por lo que se verá expuesta a una serie de desafíos que pondrán a prueba sus habilidades para recuperar lo que le fue raptado.",
-    "img" : "../../public/la_princesa_en_busca_de_su_corona.png"
+    "img" : "/la_princesa_en_busca_de_su_corona.png"
   },
   {
     "nombre_1": "  Samara Raigosa Banquet",
@@ -144,7 +144,7 @@
     "nombre_del_vd": "S & S",
     "objetivo": "El objetivo es recolectar todos los diamantes mágicos necesarios para abrir el portal que te llevará de vuelta a casa. A medida que avanzas en la historia y resuelves los misterios, descubrirás secretos profundos sobre este mundo mágico y tu propia existencia.",
     "historia": "Los jugadores se sumergen en una versión alternativa del mundo de Mario Bros que se fusiona con el cuento de hadas de Hansel y Gretel.Perdidos en un misterioso bosque encantado, y deben trabajar juntos para encontrar el camino. A medida que avanzan, descubren una serie de desafíos inspirados en el cuento de Hansel y Gretel",
-    "img" : "../../public/sys.png"
+    "img" : "/sys.png"
   },
   {
     "nombre_1": "Maria Jose Escobar Sanchez",
@@ -153,7 +153,7 @@
     "nombre_del_vd": "Gosht cat",
     "objetivo": "La fantasma tiene que encontrar a su gatito de vuelta atravez de un laberinto por distintos mundos",
     "historia": "La fantasma ha perdido su gatito por diferentes mundos en el que tendra que pasar dificiles laberintos en el que se enc0ontrara a una trampa la cual es otro fantasma que si la toca estara condenada a repetir ese viaje infernal nuevamente",
-    "img" : "../../public/gosht_cat.png"
+    "img" : "/gosht_cat.png"
   },
   {
     "nombre_1": "Keiner Andrés Borja Arroyo",
@@ -163,7 +163,7 @@
     "nombre_del_vd": "Videojuego de avion",
     "objetivo": "Llegar hasta el nivel o escenario más alto",
     "historia": "Ninguna",
-    "img" : "../../public/videojuego_de_avion.png"
+    "img" : "/videojuego_de_avion.png"
   },
   {
     "nombre_1": "María José Mejia zapata",
@@ -173,7 +173,7 @@
     "nombre_del_vd": "The dodging ship",
     "objetivo": "El objetivo del juego es eliminar los asteroides con los rayos y llegar a los 100 puntos",
     "historia": "Alguien está atrapado en la nave que dispara rayos, debe evitar que los asteroides acaben con sus vidas y si llega a 100 puntos se salva",
-    "img" : "../../public/the_dodging_ship.png"
+    "img" : "/the_dodging_ship.png"
   },
   {
     "nombre_1": "Deivy Gallego Villa",
@@ -183,7 +183,7 @@
     "nombre_del_vd": "Space War",
     "objetivo": "El objetivo del video juego es derrotar los monstruos en cada escenario recuperar el hijo del protagonista (nosotros).",
     "historia": "Luego de una ardua batalla intergalactica, la esposa de carl muere. Carl es secuestrado por extraterrestres, y su padre, Rick, se une al ejército intergalactico Ranger para poder recuperarlo.",
-    "img" : "../../public/space_war.png"
+    "img" : "/space_war.png"
   },
   {
     "nombre_1": "David Grisales Vargas",
@@ -193,7 +193,7 @@
     "nombre_del_vd": "Rana Hambrienta",
     "objetivo": "Atrapar a las mariposas",
     "historia": "Una rana, como cualquier otra, un día cualquiera decidió emprender su propio camino, ya tenía muy claro su proyecto de vida, pero nunca había empezado con el, por problemas en su familia y problemas económicos, paso por momentos muy difíciles, paso por hambre, pero esta se revelo, tomo la decisión de irse de su casa para buscar su propia comida.",
-    "img" : "../../public/rana_hambrienta.png"
+    "img" : "/rana_hambrienta.png"
   },
   {
     "nombre_1": "Mariana George García",
@@ -203,7 +203,7 @@
     "nombre_del_vd": "Run for donuts",
     "objetivo": "El objetivo del juego es recolectar todas donas posible mientras avanzas por los distintos niveles del juego",
     "historia": "La historia del videojuego Run for Donuts se centra en Max, un gato callejero que perdió su hogar cuando su dueño se mudó y lo dejó en la calle. La vida en la calle fue dura, pero Max hizo un descubrimiento sorprendente: un lugar que tiraba donas sobrantes al final del día. Max se convirtió en un experto en recolectar donas para sobrevivir, desarrollando una rutina para evitar ser visto.",
-    "img" : "../../public/run_for_donuts.png"
+    "img" : "/run_for_donuts.png"
   },
   {
     "nombre_1": "Maicol Andrey Rojas Ruiz",
@@ -213,6 +213,6 @@
     "nombre_del_vd": "Cogeme las manzanas",
     "objetivo": "agarrar las manzanas y pasar de nivel, aunque creeeme, no sera facil",
     "historia": "El arbol era feliz, tenia novia, y la amaba mucho, pero llego un arbol mas lindo, y ella lo dejo por ese, el triste, deja caer las manzanas, pues esta desolado, pero, solo caeran sus manzanas? aun no se sabe",
-    "img" : "../../public/cogeme_las_manzanas.png"
+    "img" : "/cogeme_las_manzanas.png"
   }
 ]

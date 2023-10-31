@@ -3,12 +3,14 @@ import { Image } from 'astro:assets';
 const {name1, name2,nameVideoGame,grupo,objetivo, history, link, img } = Astro.props
 import {ViewTransitions} from 'astro:transitions'
 import Layout from '../layouts/Layout.astro'
+
+
 ---
 <Layout title='juegos'>
     <a href={`/${nameVideoGame}`}>
         <article class=" w-auto flex justify-center transition-transform duration-300 hover:bg-rose-600  rounded-2xl gap-3 items-center flex-col border border-rose-800 shadow-md shadow-rose-600 rotate-3 hover:rotate-0 hover:scale-110 ">
-           <a href=""></a>
-            <img  src={img} alt={name1} class=" aspect-video object-cover w-auto"/>
+           
+            <Image  src={img} width={200} height={200} alt={nameVideoGame} class=" aspect-video object-cover w-auto"/>
             <h1 class=" text-center text-white mb-3 text-2xl" >{nameVideoGame}</h1>
         </article>
         
