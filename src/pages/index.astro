@@ -1,0 +1,28 @@
+---
+import Layout  from "../layouts/Layout.astro";
+import Header from '../components/Header.astro'
+import VideoGame from '../components/VideoGame.astro'
+import  dates  from "./dates/links.json";
+import Game from '../components/Game.astro'
+
+const date = dates.filter((date) => {date.nombre_del_vd === "Ben 10: A por los omitrix"})
+
+---
+
+<Layout title="Pagina de video juegos | scratch">
+	<Header/>
+	<main>
+		
+		
+		
+		
+		<VideoGame/>
+		<section  class=" mb-10 grid grid-cols-4 gap-8 container mx-auto mt-10 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1">
+			{
+				dates.map(({nombre_1, nombre_2, nombre_del_vd, grupo, objetivo,historia, link, img}) => (
+					<Game name1={nombre_1} name2={nombre_2} nameVideoGame={nombre_del_vd} grupo={grupo} objetivo={objetivo} history={historia} link={link} img={img}/>
+				))
+			}
+		</section>
+	</main>
+</Layout>

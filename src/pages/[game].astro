@@ -1,0 +1,56 @@
+---
+import dates from './dates/links.json'
+import Layout from '../layouts/Layout.astro'
+import { Image } from 'astro:assets';
+const  { game } = Astro.params
+import {ViewTransitions} from 'astro:transitions'
+
+const videoGame = dates.find( date => date.nombre_del_vd === game);
+---
+
+<Layout title={`Juego | ${game}`}>
+    <header class="flex gap-10  items-center justify-center">
+        <a href="/" class="py-1 text-center px-6 flex justify-center items-center shadow-2xl  shadow-emerald-950 font-medium bg-fuchsia-900 rounded-3xl text-1xl hover:scale-110 transition-transform duration-500 ">Volver</a>
+        <h1 class=" text-5xl text-center
+        py-5 text-slate-50">{game}</h1>
+    </header>
+    <section class="text-white  container mx-auto mt-5 mb-10">
+        <article class="flex container mx-auto rounded-lg">
+            <img transition:name={videoGame.nombre_del_vd} src={videoGame.img} class=" aspect-[3/1] w-3/1   rounded-2xl object-cover " alt={videoGame.nombre_del_vd}>
+            <aside class="flex flex-col gap-5 justify-center h-auto py-6   mb-8 px-4 bg-slate-900 ml-1">
+                <h3 class="text-4xl text-center">Información</h3>
+                <div class=" border-solid pb-3 border-b-2">
+                    <h2 class="text-2xl text-emerald-300"> creadores </h2>
+                    <div class="flex  gap-2 flex-col  ">
+
+                        <p>1. {videoGame.nombre_1}</p>
+                        {
+                            videoGame.nombre_2 != null ? 
+                            <p>2. {videoGame?.nombre_2}</p>
+                            :null
+                        }
+                    </div>
+                </div>
+                <div  class=" border-solid pb-3 border-b-2">
+                    <h3 class="text-2xl text-emerald-300">Historia</h3>
+                    <p>{videoGame.historia}</p>
+                </div>
+                <div class=" border-solid pb-3 border-b-2">
+                    <h3 class="text-2xl text-emerald-300" >Objetivo</h3>
+                    <p>{videoGame.objetivo}</p>
+                </div>
+                <div class=" border-solid pb-3 border-b-2"> 
+                    <h3 class="text-2xl text-emerald-300">Grupo</h3>
+                    <p>{videoGame.grupo}</p>
+                </div>
+                <a class=" bg-transparent  font-bold border border-gray-700 hover:bg-gray-700 transition-all duration-300 hover:scale-95  rounded-full cursor-pointer text-2xl  mtpx-3 py-4 px-2  text-center" href={videoGame?.link} target="_blank" rel="noopener noreferrer">Jugar ahora</a>
+            </article>
+            </aside>
+    </section>
+</Layout>
+<style>
+    h1{
+        text-shadow: 4px 6px 5px #4ee, 0 0 10px #fff, 6px 8px 5px #f00;
+    }
+    
+</style>
